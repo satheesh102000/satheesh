@@ -1,0 +1,45 @@
+*{
+    margin: 0%;
+    padding: 0%;
+}
+.head{
+    height: 100px;
+    text-align: center;
+    align-content: center;
+    border: 2px solid black;
+    background-color: aqua;
+}
+.nav{
+    height: 100px;
+    text-align: center;
+    align-content: center;
+    border: 2px solid black;
+    background-color: blue;
+}
+.middle{
+    display: flex;
+    width: 100%;
+}
+.left{
+    text-align: center;
+    align-content: center;
+    border: 2px solid black;
+    width: 30%;
+    height: 200px;
+    background-color: blueviolet;
+}
+.right{
+    text-align: center;
+    align-content: center;
+    border: 2px solid black;
+    width: 70%;
+    height: 200px;
+    background-color: brown;
+}
+.foot{
+    height: 85px;
+    text-align: center;
+    align-content: center;
+    border: 2px solid black;
+    background-color: chartreuse;
+}

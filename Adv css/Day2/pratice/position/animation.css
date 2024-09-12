@@ -1,0 +1,17 @@
+@keyframes rotate{
+    from{
+        transform: scale(0deg);
+        background-color: rgb(255, 0, 0);
+    }
+    to{
+        transform: scale(360deg);
+        background-color: rgb(98, 214, 20);
+    }
+
+}
+.box{
+    height: 300px;
+    width: 40%;
+    border-radius: 50%;
+    animation: rotate 2s linear infinite;
+}

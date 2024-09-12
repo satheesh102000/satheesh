@@ -1,0 +1,87 @@
+*{
+    margin: 0%;
+    padding: 0%;
+}
+.main{
+    width: 50%;
+}
+.first{
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+    width: 100%;
+}
+.second{
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+    width: 100%;
+}
+.third{
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;width: 100%;
+}
+.one{
+    background-color: blue;
+    color: white;
+    width: 20%;
+    height: 50px;
+    text-align: center;
+    align-content: center;
+    border-radius: 5px;
+}
+.two{
+    background-color: blue;
+    color: white;
+    width: 33%;
+    height: 50px;
+    text-align: center;
+    align-content: center;
+    border-radius: 5px;
+}
+.three{
+    background-color: blue;
+    color: white;
+    width: 33%;
+    height: 50px;
+    text-align: center;
+    align-content: center;
+    border-radius: 5px;
+}
+.four{
+    background-color: blue;
+    color: white;
+    width: 30%;
+    height: 50px;
+    text-align: center;
+    align-content: center;
+    border-radius: 5px;
+}
+.five{
+    background-color: blue;
+    color: white;
+    width: 35%;
+    height: 50px;
+    text-align: center;
+    align-content: center;
+    border-radius: 5px;
+}
+.six{
+    background-color: blue;
+    color: white;
+    width: 35%;
+    height: 50px;
+    text-align: center;
+    align-content: center;
+    border-radius: 5px;
+}
+.seven{
+    background-color: blue;
+    color: white;
+    width: 20%;
+    height: 50px;
+    text-align: center;
+    align-content: center;
+    border-radius: 5px;
+}

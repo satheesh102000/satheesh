@@ -1,0 +1,190 @@
+*{
+    margin: 0%;
+    padding: 0%;
+}
+.head{
+    background-color: aquamarine;
+    width: 100%;
+    height: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: end;
+}
+.circle1{
+    height: 30px;
+    width: 30px;
+    background-color: rgb(17, 0, 255);
+    border-radius: 50%;
+}
+.circle2{
+    height: 30px;
+    width: 30px;
+    background-color: rgb(17, 0, 255);
+    border-radius: 50%;
+}.circle3{
+    height: 30px;
+    width: 30px;
+    background-color: rgb(17, 0, 255);
+    border-radius: 50%;
+}
+.child1{
+    width: 100%;
+    height: 450px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.one{
+    background-color: blue;
+    height: 400px;
+    width: 95%;
+}
+.child2{
+    height: 280px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.two{
+    height: 250px;
+    /* display: flex; */
+    width: 95%;
+}
+.left{
+    background-color: aqua;
+    width: 25%;
+    height: 250px;
+    float: left;
+}
+.right{
+    width: 100%;
+    font-size: 20px;
+    height: 250px;
+}
+@media only screen and (min-width:320px) and (max-width:480px) {
+    .head{
+        background-color: aquamarine;
+        width: 100%;
+        height: 100px;
+        display: flex;
+        align-items: center;
+        justify-content: end;
+    }
+    .circle1{
+        height: 30px;
+        width: 30px;
+        background-color: rgb(17, 0, 255);
+        border-radius: 50%;
+    }
+    .circle2{
+        height: 30px;
+        width: 30px;
+        background-color: rgb(17, 0, 255);
+        border-radius: 50%;
+    }.circle3{
+        height: 30px;
+        width: 30px;
+        background-color: rgb(17, 0, 255);
+        border-radius: 50%;
+    }
+    .child1{
+        width: 100%;
+        height: 450px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .one{
+        background-color: blue;
+        height: 400px;
+        width: 95%;
+    }
+    .child2{
+        height:  810px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .two{
+        height: 800px;
+        width: 95%;
+        flex-direction: column;
+    }
+    .left{
+        background-color: aqua;
+        width: 95%;
+        height: 300px;
+    }
+    .right{
+        width: 95%;
+        height: 400px;
+    }
+    
+}
+@media only screen and (min-width:481px) and (max-width:769px) {
+    .head{
+        background-color: aquamarine;
+        width: 100%;
+        height: 100px;
+        display: flex;
+        align-items: center;
+        justify-content: end;
+    }
+    .circle1{
+        height: 30px;
+        width: 30px;
+        background-color: rgb(17, 0, 255);
+        border-radius: 50%;
+    }
+    .circle2{
+        height: 30px;
+        width: 30px;
+        background-color: rgb(17, 0, 255);
+        border-radius: 50%;
+    }.circle3{
+        height: 30px;
+        width: 30px;
+        background-color: rgb(17, 0, 255);
+        border-radius: 50%;
+    }
+    .child1{
+        width: 100%;
+        height: 450px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .one{
+        background-color: blue;
+        height: 400px;
+        width: 95%;
+    }
+    .child2{
+        height: 280px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-wrap: wrap;
+    }
+    .two{
+        height: 250px;
+        width: 95%;
+    }
+    .left{
+        background-color: aqua;
+        width:  45%;
+        height: 250px;
+        float: left;
+    }
+    .right{
+        width: 100%;
+        height: 250px;
+        font-size: 18px;
+    }
+    .text1{
+        width: 93%;
+        height: 260px;
+        font-size: 16px;
+    }
+    
+}

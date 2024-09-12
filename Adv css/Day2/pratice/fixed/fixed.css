@@ -1,0 +1,24 @@
+*{
+    margin: 0%;
+    padding: 0%;
+}
+.header{
+    height: 100px;
+    width: 100%;
+    background-color: black;
+    position: fixed;
+}
+.section{
+    height: 500px;
+    width: 100%;
+    background-color: aqua
+    ;
+}.aside{
+    height: 400px;
+    width: 100%;
+    background-color: blue;
+}.footer{
+    height: 300px;
+    width: 100%;
+    background-color: blueviolet;
+}

@@ -1,0 +1,47 @@
+.contain{
+    width: 50%;
+}
+.head{
+    height: 100px;
+    background-color: blue;
+    text-align: center;
+    align-content: center;
+}
+.nav{
+    height: 100px;
+    background-color: rgb(204, 0, 255);
+    text-align: center;
+    align-content: center;
+}
+.mid{
+    display: flex;
+    width: 100%;
+}
+.left{
+    width: 60%;
+}
+.sec{
+    background-color: brown;
+    height: 100px;
+    text-align: center;
+    align-content: center;
+}
+.art{
+    background-color: chocolate;
+    height: 100px;
+    text-align: center;
+    align-content: center;
+}
+.right{
+    width: 40%;
+    height: 200px;
+    background-color: cadetblue;
+    text-align: center;
+    align-content: center;
+}
+.foot{
+    background-color: chartreuse;
+    height: 100px;
+    text-align: center;
+    align-content: center;
+}

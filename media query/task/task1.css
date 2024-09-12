@@ -1,0 +1,430 @@
+*{
+    margin: 0%;
+    padding: 0%;
+}
+.parent{
+    width: 100%;
+    flex-wrap: wrap;
+    height: 800px;
+    display: flex;
+    justify-content: center;
+}
+.child1{
+    width: 100%;
+    height:120px ;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.head{
+    display:flex ;
+    justify-content: center;
+    justify-content: space-around;
+    width: 95%;
+    height: 100px;
+}
+.head-left{
+    width: 47%;
+    background-color: orangered;
+    height: 100px;
+}
+.in-child{
+    width: 50%;
+    height: 110px;
+}
+.head-right{
+    background-color: orangered;
+    height: 100px;
+    width: 100%;
+}
+.child2{
+    width: 100%;
+    height: 310px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+}
+.middle{
+    background-color: yellow;
+    width: 94%;
+    height: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+}
+.child3{
+    width: 100%;
+    height: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.middle2{
+    display: flex;
+    width: 97%;
+    justify-content: space-around;
+}
+.mid2-one{
+    width: 33%;
+    height: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.mid-box1{
+    background-color: blue;
+    width: 90%;
+    height:180px ;
+}
+.mid-box2{
+    background-color: blue;
+    width: 90%;
+    height:180px ;
+}
+.mid-box3{
+    background-color: blue;
+    width: 90%;
+    height:180px ;
+}
+.child4{
+    width: 100%;
+    height: 270px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.bottom{
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+}
+.btm-one{
+    width: 24%;
+    height: 250px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.btm-two{
+    width: 24%;
+    height: 250px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.btm-three{
+    width: 24%;
+    height: 250px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.btm-four{
+    width: 24%;
+    height: 250px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.btm-box1{
+    background-color: gray;
+    height: 200px;
+    width: 90%;
+}
+.btm-box2{
+    background-color: gray;
+    height: 200px;
+    width: 90%;
+}
+.btm-box3{
+    background-color: gray;
+    height: 200px;
+    width: 90%;
+}
+.btm-box4{
+    background-color: gray;
+    height: 200px;
+    width: 90%;
+}
+
+@media only screen and (min-width:320px) and (max-width:480px) {
+    .parent{
+        width: 100%;
+        flex-wrap: wrap;
+        height: 800px;
+    }
+    .child1{
+        width: 100%;
+        height:400px ;
+    }
+    .head{
+        width: 95%;
+        height: 400px;
+        flex-direction: column;
+    }
+    .head-left{
+        width: 95%;
+        background-color: orangered;
+        height: 300px;
+    }
+    .in-child{
+        width: 95%;
+        height: 300px;
+        align-content: center;
+    }    
+    .head-right{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        align-content: center;
+        background-color: orangered;
+        height: 180px;
+        width: 100%;
+    }
+    .child2{
+        width: 95%;
+        height: 305px;
+    }
+    .middle{
+        background-color: yellow;
+        width:95%;
+        height: 300px;
+    }    
+    .child3{
+        width: 100%;
+        height: 600px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .middle2{
+        width: 95%;
+        flex-direction: column;
+    }
+    .mid2-one{
+        width: 100%;
+        height: 200px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .mid-box1{
+        background-color: blue;
+        width: 95%;
+        height:180px ;
+    }
+    .mid-box2{
+        background-color: blue;
+        width: 95%;
+        height:180px ;
+    }
+    .mid-box3{
+        background-color: blue;
+        width: 95%;
+        height:180px ;
+    }
+    .child4{
+        width: 100%;
+        height: 880px;
+        flex-direction: column;
+    }
+    .bottom{
+        width: 100%;
+    }
+    .btm-one{
+        width: 100%;
+        height: 250px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .btm-two{
+        width: 100%;
+        height: 250px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .btm-three{
+        width: 100%;
+        height: 250px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .btm-four{
+        width: 100%;
+        height: 250px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    .btm-box1{
+        background-color: gray;
+        height: 200px;
+        width: 90%;
+    }
+    .btm-box2{
+        background-color: gray;
+        height: 200px;
+        width: 90%;
+    }
+    .btm-box3{
+        background-color: gray;
+        height: 200px;
+        width: 90%;
+    }
+    .btm-box4{
+        background-color: gray;
+        height: 200px;
+        width: 90%;
+    }    
+}@media only screen and (min-width:481px) and (max-width:768px) {
+    .parent{
+        width: 100%;
+        flex-wrap: wrap;
+        height: 800px;
+        display: flex;
+        justify-content: center;
+    }
+    .child1{
+        width: 100%;
+        height:120px ;
+    }
+    .head{
+        display:flex ;
+        justify-content: center;
+        justify-content: space-around;
+        width: 95%;
+        height: 100px;
+        flex-direction: column;
+    }
+    .head-left{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        align-content: center;
+        width: 95%;
+        background-color: orangered;
+        height: 110px;
+    }
+    .in-child{
+        width: 95%;
+        height: 140px;
+        align-content: center;
+    }    
+    .head-right{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        align-content: center;
+        background-color: orangered;
+        height: 45px;
+        width: 100%;
+    }
+    .child2{
+        width: 95%;
+        height: 305px;
+    }
+    .middle{
+        background-color: yellow;
+        width:95%;
+        height: 300px;
+    }    
+    .child3{
+        width: 100%;
+        height: 600px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .middle2{
+        width: 95%;
+        flex-direction: column;
+    }
+    .mid2-one{
+        width: 100%;
+        height: 200px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .mid-box1{
+        background-color: blue;
+        width: 95%;
+        height:180px ;
+    }
+    .mid-box2{
+        background-color: blue;
+        width: 95%;
+        height:180px ;
+    }
+    .mid-box3{
+        background-color: blue;
+        width: 95%;
+        height:180px ;
+    }
+    .child4{
+        width: 100%;
+        height: 500px;  
+        flex-wrap: wrap;  
+    }
+    .bottom{
+        width: 100%;
+    }
+    .btm-one{
+        width: 50%;
+        height: 250px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .btm-two{
+        width: 50%;
+        height: 250px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .btm-three{
+        width: 50%;
+        height: 250px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .btm-four{
+        width: 50%;
+        height: 250px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    .btm-box1{
+        background-color: gray;
+        height: 200px;
+        width: 90%;
+    }
+    .btm-box2{
+        background-color: gray;
+        height: 200px;
+        width: 90%;
+    }
+    .btm-box3{
+        background-color: gray;
+        height: 200px;
+        width: 90%;
+    }
+    .btm-box4{
+        background-color: gray;
+        height: 200px;
+        width: 90%;
+    }    
+}

@@ -1,0 +1,248 @@
+*{
+    margin: 0%;
+    padding: 0%;
+}
+.nav{
+    background-color: black;
+    color: white;
+}
+.mid-in{
+    display: flex;
+    width:100%;
+    height: 60px;
+}
+.left{
+    width:28%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size:25px;
+}
+.right{
+    width: 72%;
+    align-content: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.home{
+    width: 13%;
+    font-size:20px;
+}
+.us{
+    width: 17%;
+    font-size:20px;
+}
+.ser{
+    width: 13%;
+    font-size:20px;
+}
+.prot{
+    width:13%;
+    font-size:20px;
+}
+.cont{
+    width: 16%;
+    font-size:20px;
+}
+.head{
+    display: flex;
+    width:100%;
+    justify-content: center;
+    align-content: center;
+    background-color: rgb(241, 241, 205);
+    height: 310px;
+}
+.left2{
+    width: 35%;
+    justify-content: center;
+    align-content: center;
+    height:330px;
+}
+.right2{
+    width: 41%;
+    justify-content: center;
+    align-content: center;
+}
+.img1{
+    height:200px;
+    width: 65%;
+}
+.lorem1{
+    font-size: 23px;
+}
+.button1{
+    background-color: orangered;
+    width:100px;
+    height:20px;
+}
+.lorem2{
+    font-size: 23px;
+    width: 35%;
+    height: 80px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.body-mid{
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    align-content: center;
+    /* background-color: blueviolet; */
+}
+.one{
+    width: 25%;
+    /* background-color: chartreuse; */
+}
+.two{
+    width: 25%;
+    /* background-color: cadetblue; */
+}
+.three{
+    width: 25%;
+    /* background-color:tomato; */
+}
+.img2{
+    width: 100%;
+}
+.src{
+    width: 76%;
+}
+.tittle{
+    height: 40px;
+    font-size: 17px;
+    justify-content: center;
+    align-content: center;
+}
+.para{
+    width: 80%;
+    color: gray;
+}
+.button{
+    height: 60px;
+    align-content: center;
+    align-items: center;
+}
+.button2{
+    background-color: orangered;
+    height: 30px;
+    width: 25%;
+}
+.lower{
+    background-color: aqua;
+}
+.lower-mid{
+    display: flex;
+    background-color: black;
+    color: white;
+    height: 500px;
+    width: 100%;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+}
+.lower-first{
+    /* background-color: blueviolet; */
+    width: 25%;
+}
+.lower-second{
+    /* background-color: rgb(43, 226, 195); */
+    width: 32%;
+}
+.lower-third{
+    /* background-color: rgb(198, 226, 43); */
+    width: 18%;
+}
+.tittle1{
+    height: 50px;
+    display: flex;
+    align-items: center;
+    font-size: 18px;
+}
+.date{
+    /* background-color: brown; */
+    height: 350px;
+}
+.date1{
+    display: flex;
+    width: 100%;
+    height: 100px;
+    justify-content: center;
+    align-items: center;
+}
+.left3{
+    background-color: white;
+    color: black;
+    height: 48px;
+    width: 15%;
+    align-content: center;
+    border-radius: 5px;
+}
+.july{
+    font-size: 22px;
+}
+.right3{
+    width: 80%;
+}
+.para1{
+    color: gray;
+}
+.about-mid{
+    /* background-color: violet; */
+    height: 350px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.five{
+    height: 290px;
+}
+.third-mid{
+    /* background-color: teal; */
+    height: 350px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.stay{
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+}
+.left4{
+    width: 40%;
+}
+.right4{
+    width: 40%;
+}
+.icon{
+    width: 70%;
+    height: 26px;
+    background-color: white;
+    color: blue;
+    font-size: 28px;
+}
+.icon1{
+    width: 70%;
+    height: 26px;
+    background-color: white;
+    color: rgb(0, 217, 255);
+    font-size: 28px;
+}
+.icon2{
+    width: 70%;
+    height: 26px;
+    background-color: white;
+    color: rgb(255, 136, 0);
+    font-size: 28px;
+}
+.icon3{
+    width: 70%;
+    height: 26px;
+    background-color: white;
+    color: rgb(255, 0, 0);
+    font-size: 28px;
+}
+

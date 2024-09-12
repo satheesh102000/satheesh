@@ -1,0 +1,17 @@
+*{
+    margin: 0%;
+    padding: 0%;
+}
+.name{
+    height: 70px;
+    width: 200px;
+    background-color: cadetblue;
+    color: brown;
+    border-radius: 10px;
+    margin: 100px;
+    box-shadow:   green;
+}
+.name:hover{
+    background-color: rgb(255, 0, 0);
+    color: rgb(2, 1, 1);
+}

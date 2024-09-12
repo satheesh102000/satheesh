@@ -1,0 +1,32 @@
+*{
+    margin: 0%;
+    padding: 0%;
+}
+.content{
+    border: 4px solid black;
+    width: 50%;
+    margin: 30px;
+}
+.head{
+    background-color: blueviolet;
+    text-align: center;
+    align-content: center;
+    height: 50px;
+}
+.navi{
+    background-color: rgb(43, 46, 226);
+    text-align: center;
+    align-content: center;
+    height: 25px;
+}
+.main{
+    text-align: center;
+    align-content: center;
+    height: 100px;
+}
+.foot{
+    background-color: rgb(220, 43, 226);
+    text-align: center;
+    align-content: center;
+    height: 50px;
+}

@@ -1,0 +1,111 @@
+*{
+    margin: 0%;
+    padding: 0%;
+}
+.body{
+    height: 700px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.content{
+    border: 3px solid black;
+    background-color:rgb(161, 136, 66);
+    height: 630px;
+    width: 13%;
+}
+.parent{
+    position: absolute;
+}
+.child1{
+    position: relative;
+    height: 40px;
+    width: 40px;
+    bottom: 257px;
+    right: 63px;
+    transform: rotate(135deg);
+    font-size: 56px;
+}
+.child2{
+    position: relative;
+    height: 40px;
+    width: 40px;
+    bottom: 297px;
+    left: 80px;
+    transform: rotate(135deg);
+    font-size: 56px;
+}
+.top{
+    background-color: rgb(240, 240, 0);
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border:3px solid black;
+    position: relative;
+    bottom: 50px;
+    left: 44px;
+}
+.first{
+    height: 220px;
+    display:flex ;
+    justify-content: center;
+    align-items: center;
+}
+.middle1{
+    width: 100%;
+}
+.food{
+    width: 70%;
+    background-color: black;
+    color: white;
+    height: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+}
+.second{
+    width: 100%;
+    height: 170px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.fd{
+    width: 100%;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+}
+.middle2{
+    width: 70%;
+}
+.middle3{
+    display: flex;
+    height: 80px;
+    width: 100%;
+    justify-content: center;
+    justify-content: space-around;
+}
+.left{
+    width: 45%;
+}
+.right{
+    height: 70px;
+    width: 45%;
+    background-color: yellow;
+    text-align: center;
+}
+.image{
+    width: 100%;
+    text-align: center;
+}
+.image1{
+    width: 100%;
+    text-align: center;
+}

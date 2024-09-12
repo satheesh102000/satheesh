@@ -1,0 +1,61 @@
+.main{
+    width: 50%;
+}
+.head{
+    background-color: gray;
+    height: 100px;
+    text-align: center;
+    align-content: center;
+    margin: 2px;
+}
+.nav{
+    background-color: rgb(167, 17, 17);
+    height: 100px;
+    text-align: center;
+    align-content: center;
+    margin: 2px;
+}
+.mid{
+    display: flex;
+    width: 100%;
+    margin: 2px;
+}
+.left{
+    height: 200px;
+    background-color: blueviolet;
+    width: 50%;
+    align-content: center;
+    text-align: center;
+}
+.right{
+    height: 200px;
+    width: 50%;
+}
+.as{
+    background-color: chartreuse;
+    height: 98px;
+    margin: 2px;
+    align-content: center;
+    text-align: center;
+}
+.sec{
+    background-color: chocolate;
+    height: 98px;
+    margin: 2px;
+    align-content: center;
+    text-align: center;
+}
+.side{
+    background-color: rgb(212, 66, 66);
+    height: 100px;
+    text-align: center;
+    align-content: center;
+    margin: 2px;
+}
+.foot{
+    background-color: rgb(236, 233, 12);
+    height: 100px;
+    text-align: center;
+    align-content: center;
+    margin: 2px;
+}

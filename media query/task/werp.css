@@ -1,0 +1,46 @@
+*{
+    margin: 0%;
+    padding: 0%;
+}
+.parent{
+    width: 100%;
+    display: flex;
+    gap: 5px;
+}
+.box1{
+    background-color: aqua;
+    width: 200px;
+    height: 150px;
+}
+.box2{
+    background-color: rgb(102, 255, 0);
+    width: 200px;
+    height: 150px;
+}.box3{
+    background-color: rgb(255, 115, 0);
+    width: 200px;
+    height: 150px;
+}.box4{
+    background-color: rgb(255, 0, 255);
+    width: 200px;
+    height: 150px;
+}.box5{
+    background-color: rgb(255, 0, 0);
+    width: 200px;
+    height: 150px;
+}
+
+@media only screen and (min-width:320px) and (max-width:480px){
+    .parent{
+        display: flex;
+        flex-wrap: wrap;
+    }
+}
+
+@media only screen and (min-width:481px) and (max-width:768){
+    .parent{
+        display: flex;
+        flex-wrap: wrap;
+    }
+}
+

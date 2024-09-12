@@ -1,0 +1,69 @@
+.main{
+    height: 350px;
+    width: 50%;
+    background-color: yellow;
+    position: relative;
+    overflow: hidden;
+}
+.mid1{
+    background-color: rgb(245, 245, 245);
+    height: 80px;
+    width: 100px;
+    border-radius: 50%;
+    position: absolute;
+    top: 298px;
+    right: 656px;
+}
+.mid2{
+    background-color: rgb(245, 245, 245);
+    height: 80px;
+    width: 100px;
+    border-radius: 50%;
+    position: absolute;
+    top: 296px;
+    left: 660px; 
+}
+.mid3{
+    background-color: rgb(245, 245, 245);
+    height: 80px;
+    width: 100px;
+    border-radius: 50%;
+    position: absolute;
+    bottom: 288px;
+    left: 661px;
+}
+.mid4{
+    background-color: rgb(245, 245, 245);
+    height: 80px;
+    width: 100px;
+    border-radius: 50%;
+    position: absolute;
+    right: 656px;
+    bottom: 293px;
+}
+.mid5{
+    background-color: rgb(245, 245, 245);
+    height: 80px;
+    width: 100px;
+    position: absolute;
+    top: 126px;
+    right: 303px;
+}
+.mid6{
+    background-color: rgb(245, 245, 245);
+    height: 50px;
+    width: 50px;
+    position: absolute;
+    left: 333px;
+    transform: rotate(45deg);
+    bottom: 322px;
+}
+.mid7{
+    background-color: rgb(245, 245, 245);
+    height: 50px;
+    width: 50px;
+    position: absolute;
+    right: 333px;
+    transform: rotate(45deg);
+    top: 322px;
+}

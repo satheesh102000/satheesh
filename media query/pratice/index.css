@@ -1,0 +1,32 @@
+.text{
+    background-color: black;
+    height: 100px;
+}
+/* p{
+    color: red;
+} */
+ /* @media only print {
+    p{
+        color: green;
+    }
+ }
+  @media print and (orientation : LandScape) {
+    p{
+        color: blue;
+    }
+  } */
+   /* @media only screen and (max-width:320px){
+    .text{
+        background-color: aqua;
+    }
+   }
+   @media only screen and (min-width:480px){
+    .text{
+        background-color: green;
+    }
+   } */
+    @media only screen and (min-width:320px) and (max-width:480px){
+        .text{
+            background-color: green;
+        }
+    }

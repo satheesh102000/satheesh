@@ -1,0 +1,12 @@
+*{
+    margin: 0%;
+    padding: 0%;
+}
+.para{
+    height: 200px;
+    width: 100%;
+    background-color: green;
+    border: 2px solid red;
+    position: sticky;
+    top: 250px;
+}
